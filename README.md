@@ -55,7 +55,10 @@
 
 ## 📸 Screenshot
 
-*Coming soon — tambahkan screenshot kamu di sini*
+<img width="1920" height="1080" alt="Screenshot 2026-10-14 210005" src="https://github.com/user-attachments/assets/e57f8ff6-ac6c-44f5-a717-74f5715c6009" />
+<img width="1920" height="1080" alt="Screenshot 2026-10-14 210051" src="https://github.com/user-attachments/assets/3e68077e-9f09-4299-894d-bd08d2e0fb5e" />
+
+
 
 ---
 
