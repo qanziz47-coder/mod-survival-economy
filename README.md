@@ -212,7 +212,7 @@ Mod ini dilisensikan di bawah **MIT License** — lihat file [LICENSE](LICENSE) 
 
 ---
 
-## 👨💻 Author
+## 💻 Author
 
 **Qanziz47-coder**
 - GitHub: [@qanziz47-coder](https://github.com/qanziz47-coder)
