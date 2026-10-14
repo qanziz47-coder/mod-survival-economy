@@ -231,6 +231,6 @@ Mod ini dilisensikan di bawah **MIT License** — lihat file [LICENSE](LICENSE) 
 
 **⭐ Kalau mod ini bermanfaat, kasih star di GitHub! ⭐**
 
-Made with ❤️ in Indonesia
+Made with Fajri Hafz
 
 </div>
