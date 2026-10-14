@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:story/root",
+  "display": {
+    "icon": { "id": "minecraft:iron_ingot" },
+    "title": { "text": "Zaman Besi", "color": "white" },
+    "description": { "text": "Dapatkan iron ingot pertamamu!" },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:iron_ingot"] }]
+      }
+    }
+  }
+}

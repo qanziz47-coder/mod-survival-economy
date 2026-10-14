@@ -1,0 +1,15 @@
+{
+  "parent": "survival_economy:root",
+  "display": {
+    "icon": { "id": "minecraft:iron_sword" },
+    "title": { "text": "Tier 3 — Ahli", "color": "yellow" },
+    "description": { "text": "Misi tingkat ahli" },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": { "trigger": "minecraft:tick" }
+  }
+}

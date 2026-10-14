@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:story/root",
+  "display": {
+    "icon": { "id": "minecraft:beacon" },
+    "title": { "text": "Beacon Builder", "color": "aqua" },
+    "description": { "text": "Buat beacon" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "has_beacon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:beacon"] }]
+      }
+    }
+  }
+}

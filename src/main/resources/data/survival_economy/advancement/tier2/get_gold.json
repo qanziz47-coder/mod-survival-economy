@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:story/root",
+  "display": {
+    "icon": { "id": "minecraft:gold_ingot" },
+    "title": { "text": "Emas Berkilau", "color": "gold" },
+    "description": { "text": "Dapatkan gold ingot pertamamu!" },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:gold_ingot"] }]
+      }
+    }
+  }
+}

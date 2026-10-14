@@ -1,0 +1,6 @@
+{
+    "model": {
+        "type": "minecraft:model",
+        "model": "templatemod:block/ruby_block"
+    }
+}

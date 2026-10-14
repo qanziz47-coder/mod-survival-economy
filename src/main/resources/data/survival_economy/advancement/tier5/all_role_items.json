@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:story/root",
+  "display": {
+    "icon": { "id": "minecraft:nether_star" },
+    "title": { "text": "Kolektor Legenda", "color": "gold" },
+    "description": { "text": "Kumpulkan semua role items" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "has_petani_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["minecraft:diamond_hoe"] }] }
+    },
+    "has_miner_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["minecraft:diamond_pickaxe"] }] }
+    },
+    "has_adventurer_blade": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["minecraft:diamond_sword"] }] }
+    }
+  },
+  "requirements": [
+    ["has_petani_hoe", "has_miner_pickaxe", "has_adventurer_blade"]
+  ]
+}

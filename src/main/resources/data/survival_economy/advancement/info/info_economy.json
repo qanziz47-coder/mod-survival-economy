@@ -1,0 +1,17 @@
+{
+  "parent": "survival_economy:root",
+  "display": {
+    "icon": { "id": "minecraft:emerald" },
+    "title": { "text": "💰 Ekonomi", "color": "green" },
+    "description": {
+      "text": "Cara pakai: /bal, /shop, /sell\n\n- /bal = cek saldo\n- /shop = buka toko\n- /sell hand = jual item di tangan\n- /sell all = jual semua item\n\nToko punya 170 item dengan harga dinamis!"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": { "trigger": "minecraft:tick" }
+  }
+}

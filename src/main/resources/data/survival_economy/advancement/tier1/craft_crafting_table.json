@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:story/root",
+  "display": {
+    "icon": { "id": "minecraft:crafting_table" },
+    "title": { "text": "Tukang Kayu", "color": "gold" },
+    "description": { "text": "Buat crafting table pertamamu!" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:crafting_table"] }]
+      }
+    }
+  }
+}

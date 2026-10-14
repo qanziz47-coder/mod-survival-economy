@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:story/root",
+  "display": {
+    "icon": { "id": "minecraft:ender_pearl" },
+    "title": { "text": "Pemburu Enderman", "color": "dark_purple" },
+    "description": { "text": "Bunuh Enderman pertamamu!" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "killed_enderman": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": { "type": "minecraft:enderman" }
+      }
+    }
+  }
+}

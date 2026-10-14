@@ -1,0 +1,17 @@
+{
+  "parent": "survival_economy:root",
+  "display": {
+    "icon": { "id": "minecraft:book" },
+    "title": { "text": "📋 Quest System", "color": "light_purple" },
+    "description": {
+      "text": "20 misi dari pemula ke legenda!\n\n- /quest = daftar misi\n- /quest info <nama> = detail\n\nMisi auto-detect — cukup main normal!\nSelesai misi = Coins + Tier up!"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": { "trigger": "minecraft:tick" }
+  }
+}

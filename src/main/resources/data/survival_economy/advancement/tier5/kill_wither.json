@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:story/root",
+  "display": {
+    "icon": { "id": "minecraft:wither_skeleton_skull" },
+    "title": { "text": "Pembunuh Wither", "color": "dark_gray" },
+    "description": { "text": "Bunuh Wither" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "killed_wither": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": { "type": "minecraft:wither" }
+      }
+    }
+  }
+}

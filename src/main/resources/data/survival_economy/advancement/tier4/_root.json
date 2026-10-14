@@ -1,0 +1,15 @@
+{
+  "parent": "survival_economy:root",
+  "display": {
+    "icon": { "id": "minecraft:diamond_sword" },
+    "title": { "text": "Tier 4 — Master", "color": "aqua" },
+    "description": { "text": "Misi tingkat master" },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": { "trigger": "minecraft:tick" }
+  }
+}

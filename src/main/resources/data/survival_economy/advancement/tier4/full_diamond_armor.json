@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:story/root",
+  "display": {
+    "icon": { "id": "minecraft:diamond_chestplate" },
+    "title": { "text": "Full Diamond Armor", "color": "aqua" },
+    "description": { "text": "Pakai full diamond armor" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "has_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["minecraft:diamond_helmet"] }] }
+    },
+    "has_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["minecraft:diamond_chestplate"] }] }
+    },
+    "has_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["minecraft:diamond_leggings"] }] }
+    },
+    "has_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["minecraft:diamond_boots"] }] }
+    }
+  },
+  "requirements": [
+    ["has_helmet", "has_chestplate", "has_leggings", "has_boots"]
+  ]
+}

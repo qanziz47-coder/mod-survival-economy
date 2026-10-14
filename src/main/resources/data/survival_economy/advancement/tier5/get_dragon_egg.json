@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:story/root",
+  "display": {
+    "icon": { "id": "minecraft:dragon_egg" },
+    "title": { "text": "Dragon Egg", "color": "light_purple" },
+    "description": { "text": "Dapatkan dragon egg" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "has_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:dragon_egg"] }]
+      }
+    }
+  }
+}

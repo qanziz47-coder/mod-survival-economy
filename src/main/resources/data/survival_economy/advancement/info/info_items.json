@@ -1,0 +1,17 @@
+{
+  "parent": "survival_economy:root",
+  "display": {
+    "icon": { "id": "minecraft:totem_of_undying" },
+    "title": { "text": "🎨 Custom Items", "color": "gold" },
+    "description": {
+      "text": "8 custom items OP:\n\n- ⚡ Totem of Resurrection\n- 🔥 Totem of Vengeance\n- ⌛ Totem of Time\n- 🌾 Petani Hoe\n- ⛏ Miner Pickaxe\n- ⚔ Adventurer Blade\n- 🏗 Builder Wand\n- 💰 Trader Ring\n\nKetik /givecustom untuk dapat!"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": { "trigger": "minecraft:tick" }
+  }
+}

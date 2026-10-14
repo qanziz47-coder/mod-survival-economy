@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:story/root",
+  "display": {
+    "icon": { "id": "minecraft:coal" },
+    "title": { "text": "Tambang Batubara", "color": "dark_gray" },
+    "description": { "text": "Dapatkan 64 coal" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "has_coal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:coal"], "count": { "min": 64 } }]
+      }
+    }
+  }
+}

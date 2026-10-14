@@ -1,0 +1,17 @@
+{
+  "parent": "survival_economy:root",
+  "display": {
+    "icon": { "id": "minecraft:iron_pickaxe" },
+    "title": { "text": "🎭 Role System", "color": "aqua" },
+    "description": {
+      "text": "5 role: Petani, Penambang, Petualang, Pembangun, Pedagang\n\n- /role list = daftar role\n- /role set <role> = pilih role\n- /role gaji = info gaji\n\nGaji otomatis setiap 7 hari MC!\nNaik tier = gaji naik!"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": { "trigger": "minecraft:tick" }
+  }
+}

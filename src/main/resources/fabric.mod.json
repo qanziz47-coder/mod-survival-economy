@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "survival_economy",
+	"version": "${version}",
+	"name": "Survival Economy",
+	"description": "Mod ekonomi untuk Minecraft Survival singleplayer dengan sistem saldo, toko GUI, statistik, dan sidebar.",
+	"authors": [
+		"Lenzo"
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/survival_economy/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"rul.templatemod.SurvivalEconomyMod"
+		],
+		"client": [
+			"rul.templatemod.TemplateModClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

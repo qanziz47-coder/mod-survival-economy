@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:story/root",
+  "display": {
+    "icon": { "id": "minecraft:coal" },
+    "title": { "text": "Bahan Bakar", "color": "dark_gray" },
+    "description": { "text": "Tambang coal pertamamu!" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_coal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:coal"] }]
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "parent": "survival_economy:root",
+  "display": {
+    "icon": { "id": "minecraft:gold_block" },
+    "title": { "text": "🏦 Bank", "color": "yellow" },
+    "description": {
+      "text": "Cara pakai: /bank\n\n- /bank deposit <jumlah> = setor\n- /bank withdraw <jumlah> = ambil\n- /bank balance = cek saldo\n- /bank simulasi <jumlah> <hari> = simulasi\n\nBunga 1% per hari (compound)!"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": { "trigger": "minecraft:tick" }
+  }
+}
